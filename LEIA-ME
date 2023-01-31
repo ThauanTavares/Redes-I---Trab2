@@ -1,0 +1,21 @@
+ Thauan de Souza Tavares da Silva GRR20171591
+ 
+ Objetivo: 
+ 	Detectar se aconteceu algum erro entre a mensagem que foi enviada e a que foi recebida pelo destino e também apresentar uma forma de corrigir  a mensagem recebida sem que seja necessário o reevio da mensagem completa.
+
+Funcionamento: Objetivo simular os dados enviados e recebidos a forma para testar o algoritmo escolhida pelo desenvolvedor foi: 
+	o usuario digita uma mensagem, quebrada em no minimo duas parte, passando a quantidade de linhas em que vai ser quebrada a mensagem e o tamanho de cada parte Ex: 110011, pode entrar no programa como: 
+		>2
+		>3
+		>110
+		>011
+	Dessa forma para usar a paridade, feito dessa forma para facilitar o teste do algoritmo, futuramente pode ser alterado para receber uma mensagem inteira e o programa mesmo corrigir. Após a entrada dos dados é impressa a mensagem em formato de matriz e calculada a paridade bidimensional.Então é impressa a mensagem recebida, após passar por uma função que simula uma interferencia(chance de 50% para aumentar ou diminuir alterar o valor de interferencia no funcoes.c) alterando um bit da mensagem. É calculado a paridade da mensagem recebida e verificada se tem alguma existencia de erro, em caso de erro aparece as mensagens indicando que foi detectado erro, qual bit foi alterado e então é corrigido. e a mensagem final é exibida.
+	
+
+Conclusão: Foi escolhido a paridade para detectar erro e correção de mensagens nesse trabalho, sendo a paridade eficiente em casos que somente 1 bit é alterado(caso testado no programa), para outros casos existem algoritmos melhores para detecção e correção de erro. Acredito que o trabalho atende o objetivo especificado conseguindo exemplificar algum algoritmo para detectar e corrigir  erros em mensagem.
+ 
+ Execução:
+ 	>make
+ 	>./Mensagem
+ 	
+
