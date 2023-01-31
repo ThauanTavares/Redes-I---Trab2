@@ -146,8 +146,9 @@ int main(){
             mensagem[linhaOk][colunaOk]='0';
             linhaOk=-1;
             colunaOk=-1;
-         }else{
-            mensagem[linhaOk][colunaOk]=='1';
+        }else{
+
+            mensagem[linhaOk][colunaOk]='1';
             linhaOk=-1;
             colunaOk=-1;
         }
